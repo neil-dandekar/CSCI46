@@ -25,9 +25,9 @@ void getPrices(float *a, float *b, float *c) {
     scanf("%f", c);
 
     // Sort values
-    if (a > b) swap(a, b); // Ensures a < b
-    if (a > c) swap(a, c); // Ensures a < c
-    if (b > c) swap(c, b); // Ensures b < c
+    if (*a > *b) swap(a, b); // Ensures a < b
+    if (*a > *c) swap(a, c); // Ensures a < c
+    if (*b > *c) swap(c, b); // Ensures b < c
 }
 
 int main() {
@@ -35,5 +35,5 @@ int main() {
     float price2;
     float price3;
     getPrices(&price1, &price2, &price3);
-    printf("The three prices are: %.2f, %.2f, %.2f", price1, price2, price3); 
+    printf("The three price are: %.2f, %.2f, %.2f", price1, price2, price3); 
 }
