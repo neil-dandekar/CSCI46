@@ -1,3 +1,8 @@
+// Name:  Neil Dandekar  |
+// Class: CSCI 46        |
+// Date:  05.18.2023     |
+// _______________________
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
