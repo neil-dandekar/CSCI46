@@ -52,11 +52,12 @@ int main(int argc, char *argv[]) {
         }
     }
     
-    // CLose files
+    // Close files
     fclose(readf);
     fclose(shortf);
     fclose(longf);
 
+    // Print number of lines written to each file
     printf("%d lines written to short.txt\n", numShort);
     printf("%d lines written to long.txt\n", numLong);
 }
