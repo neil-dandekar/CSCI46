@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include "md5.h"
+#include <openssl/md5.h>
 
 char *md5(const char *str, int length) {
     MD5_CTX c;
