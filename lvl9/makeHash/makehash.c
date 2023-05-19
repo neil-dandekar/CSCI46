@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include "md5.h"
 
 int main(int argc, char *argv[]) {
 
@@ -19,10 +20,24 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
 
-    char line[1000];
+    char line[1000];    // Line from file
+    // Loop through file
     while(!feof(readf)) {
+
+        // Get line
         fgets(line, 1000, readf);
 
-        
+        // Trim newline character
+        char *nl = strchr(line, '\n');
+        if (nl) *nl = '\0';
+
+        // Get hash
+        char *hash = md5(line, strlen(line));
+
+        // Write hash to file
+        fprintf(writef, "%s\n", hash);
+
+        // Free hash for next line
+        free(hash);
     }
 }
