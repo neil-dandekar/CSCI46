@@ -1,0 +1,86 @@
+----------------------------------------------------
+$ ./a.out sydney
+Connected to sydney.cs.sierracollege.edu.
+
+1: Sent "Hello"
+1: Received "1 5"
+Roundtrip: 159.55 ms
+
+2: Sent "Hello"
+2: Received "2 5"
+Roundtrip: 137.17 ms
+
+3: Sent "Hello"
+3: Received "3 5"
+Roundtrip: 137.12 ms
+
+Average Roundtrip: 144.61 ms
+----------------------------------------------------
+$ ./a.out mumbai
+Connected to mumbai.cs.sierracollege.edu.
+
+1: Sent "Hello"
+1: Received "1 5"
+Roundtrip: 238.74 ms
+
+2: Sent "Hello"
+2: Received "2 5"
+Roundtrip: 225.28 ms
+
+3: Sent "Hello"
+3: Received "3 5"
+Roundtrip: 225.41 ms
+
+Average Roundtrip: 229.81 ms
+----------------------------------------------------
+$ ./a.out fremont
+Connected to fremont.cs.sierracollege.edu.
+
+1: Sent "Hello"
+1: Received "1 5"
+Roundtrip: 15.54 ms
+
+2: Sent "Hello"
+2: Received "2 5"
+Roundtrip: 0.38 ms
+
+3: Sent "Hello"
+3: Received "3 5"
+Roundtrip: 0.20 ms
+
+Average Roundtrip: 5.37 ms
+----------------------------------------------------
+$ ./a.out london  
+Connected to london.cs.sierracollege.edu.
+
+1: Sent "Hello"
+1: Received "1 5"
+Roundtrip: 162.05 ms
+
+2: Sent "Hello"
+2: Received "2 5"
+Roundtrip: 136.88 ms
+
+3: Sent "Hello"
+3: Received "3 5"
+Roundtrip: 136.90 ms
+
+Average Roundtrip: 145.28 ms
+----------------------------------------------------
+$ ./a.out newark  
+Connected to newark.cs.sierracollege.edu.
+
+1: Sent "Hello"
+1: Received "1 5"
+Roundtrip: 84.13 ms
+
+2: Sent "Hello"
+2: Received "2 5"
+Roundtrip: 69.33 ms
+
+3: Sent "Hello"
+3: Received "3 5"
+Roundtrip: 69.18 ms
+
+Average Roundtrip: 74.21 ms
+----------------------------------------------------
